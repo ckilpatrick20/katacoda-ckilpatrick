@@ -6,3 +6,4 @@ Here's a single line of runnable code:
 
 `printf 'Hello, world!\n\n'`{{execute}}
 
+Let's start writing some java: `java.main`{{open}}
