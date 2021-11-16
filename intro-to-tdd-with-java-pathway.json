@@ -4,6 +4,11 @@
   "icon" : "fa-katacoda",
   "courses": [
     {
+      "course_id": "scenario-student-tracking-application",
+      "title": "Creating a Student Tracking Application",
+      "description": "Using TDD, we will begin to create a student tracking application"
+    },
+    {
       "course_id": "challenge-hello-world",
       "title": "Challenge Template",
       "description": "Basic template for a challenge"
