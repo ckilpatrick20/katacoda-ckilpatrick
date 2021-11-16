@@ -38,7 +38,7 @@
     },
     "assets": {
       "client": [
-        { "file": "*", "target": "~/"}
+        { "file": "java/*", "target": "~/java/"}
       ]
     }
   },
