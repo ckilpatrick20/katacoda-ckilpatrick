@@ -1,5 +1,11 @@
 {
   "title": "Intro to TDD with Java",
   "description": "Introductory course to teach Java developers how to practice Test Driven Development (TDD)",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "challenge-hello-world",
+      "title": "Challenge Template",
+      "description": "Basic template for a challenge"
+    }
+  ]
 }
