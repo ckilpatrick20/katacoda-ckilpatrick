@@ -37,8 +37,8 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [
-        { "file": "java/*", "target": "~/java/"}
+      "client": [
+        { "file": "*", "target": "~/"}
       ]
     }
   },
