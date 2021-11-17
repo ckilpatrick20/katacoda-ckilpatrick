@@ -31,7 +31,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -40,17 +42,17 @@
       "client": [{
         "file": "*",
         "target": "~/"
-      }]
+      }],
+      "host01": [
+        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
     }
   },
-  "files": [
-    "/root/java/student-tracking-application/src/test/java/StudentTest.java"
-  ],
   "environment": {
     "uieditorpath": "/root/java/student-tracking-application",
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "openjdk:15"
+    "imageid": "ubuntu:2004"
   }
 }
