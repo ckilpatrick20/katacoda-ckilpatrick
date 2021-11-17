@@ -3,6 +3,8 @@
 ### StudentTest.java
 Open the file `src/test/java/StudentTest.java`{{open}}
 
+Begin by adding comments to identify each stage of the test.
+
 Copy file to editor:
 <pre class="file" data-filename="src/test/java/StudentTest.java" data-target="replace">
 import org.junit.jupiter.api.Test;
@@ -27,7 +29,7 @@ public class StudentTest {
 ### Student.java
 Start by opening the file `src/main/java/Student.java`{{open}}
 
-Begin refactoring by adding class properties and updating method to use them
+Begin refactoring by adding class attributes and updating method to use them.
 
 Copy file to editor:
 <pre class="file" data-filename="src/main/java/Student.java" data-target="replace">
