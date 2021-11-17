@@ -21,16 +21,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class StudentTest {
-
   @Test
   public void givenStudentName_ThenReturnDisplayName() {
-    // arrange
     Student student = new Student();
-    
-    // act
     String studentName = student.displayStudentName("John", "Smith");
-    
-    // assert
     assertEquals("JohnSmith", studentName);
   }
 }
