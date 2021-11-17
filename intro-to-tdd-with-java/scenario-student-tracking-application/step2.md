@@ -14,8 +14,8 @@ Copy the following into the editor by hitting 'copy to editor':
 
 <pre class="file" data-filename="src/main/java/Student.java" data-target="replace">
 public class Student {
- public String displayStudentName(String name) {
-  return name;
+ public String displayStudentName(String firstName, String lastName) {
+  return firstName + lastName;
  }
 }
 </pre>
