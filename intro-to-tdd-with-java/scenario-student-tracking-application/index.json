@@ -43,6 +43,9 @@
       }]
     }
   },
+  "files": [
+    "/root/java/student-tracking-application/src/test/java/StudentTest.java"
+  ],
   "environment": {
     "uieditorpath": "/root/java/student-tracking-application",
     "uilayout": "vscode-terminal-split"
