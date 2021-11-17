@@ -15,4 +15,4 @@ public class StudentTest {
 ## Execute!
 Let's now run our test!
 
-bash ./gradlew test{{execute}}
+`bash ./gradlew test`{{execute}}
