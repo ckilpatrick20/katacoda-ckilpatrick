@@ -1,5 +1,3 @@
-# Step 1
-
 ## Let's open our file first!
 Let's open `/java/student-tracking-application/src/test/java/StudentTest.java`{{open}}
 ## Add a test
