@@ -3,6 +3,7 @@
   "description": "Senario",
   "difficulty": "Beginner",
   "time": "30 minutes",
+  "icon": "fa-java",
   "details": {
     "steps": [
       {
