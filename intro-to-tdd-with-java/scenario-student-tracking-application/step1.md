@@ -25,7 +25,7 @@ public class StudentTest {
     @Test
     public void givenStudentName_ThenReturnDisplayName() {
         Student student = new Student();
-        String studentName = student.displayStudentName("Smith", "John");
+        String studentName = student.displayStudentName("John", "Smith");
         assertEquals("JohnSmith", studentName);
     }
 }
