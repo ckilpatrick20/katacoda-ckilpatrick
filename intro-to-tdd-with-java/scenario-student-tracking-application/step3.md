@@ -1,51 +1,31 @@
-## Time to refactor
+## Let's write our first bit of code
 
-### StudentTest.java
-Open the file `src/test/java/StudentTest.java`{{open}}
+Now that we've written our test, we know our goal. We need to write the code required to make it go green.
 
-Begin by adding comments to identify each stage of the test.
+Start by opening the file `src/main/java/Student.java`{{open}}.
 
-Copy file to editor:
-<pre class="file" data-filename="src/test/java/StudentTest.java" data-target="replace">
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+Ah our Student class doesn't have any code in it, this is why it was failing in the previous step. Never fear, we'll write just enough code to get it green.
 
-public class StudentTest {
+## Let's write our first bit of code
 
-  @Test
-  public void givenStudentName_ThenReturnDisplayName() {
-    // arrange
-    Student student = new Student();
+Our goal is to write the minimum code to pass the test, that's the "green" step. We'll refactor the code in future steps so our main aim here is to get something working.
 
-    // act
-    String studentName = student.displayStudentName("John", "Smith");
+Copy the following into the editor by hitting 'copy to editor':
 
-    // assert
-    assertEquals("JohnSmith", studentName);
-  }
-}
-</pre>
-
-### Student.java
-Start by opening the file `src/main/java/Student.java`{{open}}
-
-Begin refactoring by adding class attributes and updating method to use them.
-
-Copy file to editor:
 <pre class="file" data-filename="src/main/java/Student.java" data-target="replace">
-public class Student {  
-  String firstName;
-  String lastName;
-  String displayName;  
-
+public class Student {
   public String displayStudentName(String firstName, String lastName) {
-    displayName = firstName + lastName;
-    return displayName;
+    return firstName + lastName;
   }
 }
 </pre>
 
-### Rerun our test from Step 1
-Now we will rerun our test from Step 1 to ensure we did not break our code.
+## Run your first test - again (Green)
+
+Let's now run test again, but this time we're expecting that this will be "red" or "pass" as we've written the code that will meet the requirements of the test.
+
+Click execute to run your test suite:
 
 `bash ./gradlew test`{{execute}}
+
+Now it's time for the advanced stuff, refactoring!

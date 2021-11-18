@@ -9,9 +9,12 @@ Type the following command into the consule to run our first test:
 
 `bash ./gradlew test`{{execute}}
 
-### Failure
-<span style="color:red">BUILD FAILED</span>
+### Failure is an option
+```
+BUILD FAILED in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+```
 
 This is exactly what we were expecting. The `student.displayStudentFullName` method does not exist yet which means this test should and will fail.
 
-Now you're ready for the part everyone loves, making the test go <span style="color:green">green</span>! Click continue when you're ready to move on to the next step.
+Now you're ready for the next stage of TDD, making the test go <span style="color:green">green</span>!

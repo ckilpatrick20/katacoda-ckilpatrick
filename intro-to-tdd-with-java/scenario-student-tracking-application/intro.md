@@ -42,5 +42,3 @@ These three activities are often referred to as red, green, refactor.
 **Edge Cases:** Consider all possible scenarios. Are there boundary conditions?
 
 **Errors:** What happens when things break? Are errors and invalid inputs handled?
-
-##### Let's get coding!
