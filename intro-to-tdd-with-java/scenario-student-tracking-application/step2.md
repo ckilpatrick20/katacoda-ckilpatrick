@@ -12,8 +12,9 @@ Type the following command into the consule to run our first test:
 ### Failure is an option
 ```
 BUILD FAILED in 1s
-2 actionable tasks: 1 executed, 1 up-to-date
+2 actionable tasks: 2 executed
 ```
+*This is an example of an error message you may receive. Do not worry if your error message looks a little different.*
 
 This is exactly what we were expecting. The `student.displayStudentFullName` method does not exist yet which means this test should and will fail.
 
