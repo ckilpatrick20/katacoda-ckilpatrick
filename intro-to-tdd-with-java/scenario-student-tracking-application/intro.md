@@ -24,11 +24,11 @@ It can be succinctly described by the following set of rules:
 ## Red Green Refactor!
 These three activities are often referred to as red, green, refactor.
 
-**Red:** Introduce a test for desired functionality that fails (or does not compile)
+**<span style="color:red">Red:</span>** Introduce a test for desired functionality that fails (or does not compile)
 
-**Green:** Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish quickly
+**<span style="color:green">Green:</span>:** Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish quickly
 
-**Refactor:** Take time to make the code good
+**<span style="color:blue">Refactor:</span>:** Take time to make the code good
 
 ![Red Green Refactor](./assets/red-green-refactor.png)
 
