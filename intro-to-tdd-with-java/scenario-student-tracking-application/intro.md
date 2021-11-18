@@ -1,14 +1,14 @@
 # Test Driven Development (TDD)
 ---
-#### Getting started
+## Getting started
 This scenario will guide you through the creation of a student tracking application. There is a preconfigured Java project which contains `Student` and `StudentTest` classes. We will be using JUnit5 to build out our test suite and Gradle to execute the tests.
-#### Prerequisites for this scenario
+### Prerequisites for this scenario
 Basic understanding of:
 - Java class design
 - Java syntax
 - JUnit
 
-#### What is TDD?
+### What is TDD?
 
 TDD refers to a style of programming in which three activities are tightly interwoven: coding, testing (in the form of writing unit tests) and design (in the form of refactoring).
 
@@ -23,7 +23,7 @@ It can be succinctly described by the following set of rules:
 *https://www.agilealliance.org/glossary/tdd/*
 
 
-#### Red Green Refactor!
+### Red Green Refactor!
 These three activities are often referred to as red, green, refactor.
 
 **<span style="color:red">Red:</span>** Introduce a test for desired functionality that fails (or does not compile)
@@ -34,7 +34,7 @@ These three activities are often referred to as red, green, refactor.
 
 ![Red Green Refactor](./assets/red-green-refactor.png)
 
-#### What to test?
+### What to test?
 **Trivial:** Start with the simplest functionality. What happens when you call methods with default arguments? Zero? Empty?
 
 **Functional:** Focus on happy path next. What is the core business logic?
@@ -43,4 +43,4 @@ These three activities are often referred to as red, green, refactor.
 
 **Errors:** What happens when things break? Are errors and invalid inputs handled?
 
-###### Let's get coding!
+##### Let's get coding!
