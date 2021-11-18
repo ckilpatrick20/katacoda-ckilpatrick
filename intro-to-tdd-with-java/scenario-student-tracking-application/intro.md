@@ -1,6 +1,8 @@
 # Test Driven Development (TDD)
 ---
-## Prerequisites for this course
+## Getting started
+This course will guide you through the creation of a student tracking application. There is a preconfigured Java project which contains `Student` and `StudentTest` classes. We will be using JUnit5 to build out our test sweet and Gradle to execute the tests.
+### Prerequisites for this course
 Basic understanding of:
 - Java class design
 - Java syntax
@@ -26,13 +28,13 @@ These three activities are often referred to as red, green, refactor.
 
 **<span style="color:red">Red:</span>** Introduce a test for desired functionality that fails (or does not compile)
 
-**<span style="color:green">Green:</span>:** Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish quickly
+**<span style="color:green">Green:</span>** Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish quickly
 
-**<span style="color:blue">Refactor:</span>:** Take time to make the code good
+**<span style="color:blue">Refactor:</span>** Take time to make the code good
 
 ![Red Green Refactor](./assets/red-green-refactor.png)
 
-## What to test
+## What to test?
 **Trivial:** Start with the simplest functionality. What happens when you call methods with default arguments? Zero? Empty?
 
 **Functional:** Focus on happy path next. What is the core business logic?
@@ -40,3 +42,5 @@ These three activities are often referred to as red, green, refactor.
 **Edge Cases:** Consider all possible scenarios. Are there boundary conditions?
 
 **Errors:** What happens when things break? Are errors and invalid inputs handled?
+
+### Let's get coding!
