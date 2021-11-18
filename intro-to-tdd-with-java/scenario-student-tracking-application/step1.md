@@ -3,7 +3,7 @@ Welcome to TDD. Please give the environment a chance to fully load. This process
 ---
 ## Project File Structure
 
-The project file structure is listed below. We will be working in `Student.java` and `StudentTest.java`. You should need to edit any of the other files for this scenario.
+The project file structure is listed below. We will be working in `Student.java` and `StudentTest.java`. You will not need to edit any of the other files for this scenario.
 
 ```
 project
@@ -34,7 +34,9 @@ As you can see, there's not not much here yet except for a few import statements
 
 ### Writing your first test
 
-For our first test, we're going to create a new test method called `givenStudentName_ThenReturnDisplayName`. The test asserts that `studenFulltName` is equal to the concatination of the student's first and last name when we call our `displayStudentFullName` function (**NOTE** there's no code in our `Student.java` file so we expect this test will fail).
+For our first test, we're going to create a new test method called `givenStudentName_ThenReturnDisplayName`. This test method will assert that `studentFullName` is equal to the concatination of the student's first and last name when we call our `student.displayStudentFullName` function 
+
+- **NOTE** There is no code in our `Student.java` file so we expect this test will fail
 
 Copy the test function below to the `StudentTest.java` file:
 
@@ -46,8 +48,8 @@ public class StudentTest {
   @Test
   public void givenStudentName_ThenReturnDisplayName() {
     Student student = new Student();
-    String studentName = student.displayStudentName("John", "Smith");
-    assertEquals("JohnSmith", studentName);
+    String studentFullName = student.displayStudentFullName("John", "Smith");
+    assertEquals("JohnSmith", studentFullName);
   }
 }
 </pre>
