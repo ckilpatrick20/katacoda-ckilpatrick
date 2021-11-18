@@ -22,7 +22,7 @@ project
 +-- settings.gradle
 ```
 
-### StudentTest.java
+## StudentTest.java
 TDD starts with testing before any development. Let's start by opening up our `StudentTest.java` file to begin writting our JUnit code.
 
 Open `src/test/java/StudentTest.java`{{open}}.
@@ -32,7 +32,7 @@ As you can see, there's not not much here yet except for a few import statements
 **Requirement:**
 - Create a function that will concatenate a student's first and last name and return the new string
 
-## Writing your first test
+### Writing your first test
 
 For our first test, we're going to create a new test method called `givenStudentName_ThenReturnDisplayName`. The test asserts that `studenFulltName` is equal to the concatination of the student's first and last name when we call our `displayStudentFullName` function (**NOTE** there's no code in our `Student.java` file so we expect this test will fail).
 
