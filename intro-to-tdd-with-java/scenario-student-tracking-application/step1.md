@@ -31,7 +31,7 @@ As we can see, there's not not much here yet except for a few import statements 
 
 ### Writing our first test
 
-For our first test, we're going to create a new test method called `givenStudentName_ThenReturnDisplayName`. This test method will assert that `studentFullName` is equal to the concatination of the student's first and last name when we call our `student.displayStudentFullName` method 
+For our first test, we're going to create a new test method called `givenStudentFirstLasName_ThenReturnFullName`. This test method will assert that `studentFullName` is equal to the concatination of the student's first and last name when we call our `student.displayStudentFullName` method 
 
 - **NOTE** There is no code in our `Student.java` file so we expect this test will fail
 
@@ -43,7 +43,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class StudentTest {
   @Test
-  public void givenStudentName_ThenReturnDisplayName() {
+  public void givenStudentFirstLasName_ThenReturnFullName() {
     Student student = new Student();
     String studentFullName = student.displayStudentFullName("John", "Smith");
     assertEquals("JohnSmith", studentFullName);
