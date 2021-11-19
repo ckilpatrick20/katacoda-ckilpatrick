@@ -18,4 +18,4 @@ BUILD FAILED in 1s
 
 In fact, failure is our only option as this is exactly what we are expecting. The `student.displayStudentFullName` method does not exist yet which means this test should and will fail.
 
-Now we're ready for the next stage of TDD, making the test go <span style="color:green">green</span>!
+Now we're ready for the next stage of TDD. We need to write just enough code in the `Student` class to make the test pass, or go <span style="color:green">green</span>.
