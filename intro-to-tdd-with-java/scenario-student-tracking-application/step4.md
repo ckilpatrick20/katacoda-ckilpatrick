@@ -17,6 +17,8 @@ We can begin by following the arrange-act-assert pattern to ensure we are writin
 // assert
 ``` 
 
+To adhere to this pattern, we must seperate out our `new Student()` object instantiation and put it on its own line. 
+
 Copy the updated test method with comments to the `StudentTest.java` file:
 <pre class="file" data-filename="src/test/java/StudentTest.java" data-target="replace">
 import org.junit.jupiter.api.Test;
@@ -44,3 +46,10 @@ Our unit test looks much better now and it is more clear to other developers wha
 We will rerun our unit test from Step 1 to ensure we did not break our code during our unit test refactoring.
 
 `bash ./gradlew test`{{execute}}
+
+```gradle
+BUILD SUCCESSFUL in 2s
+3 actionable tasks: 2 executed, 1 up-to-date
+```
+
+As expected, our unit test is still working and our code passes. Now to move onto the actual `Student` class and begin refactoring it.
