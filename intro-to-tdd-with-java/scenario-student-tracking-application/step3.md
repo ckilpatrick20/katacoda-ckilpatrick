@@ -28,4 +28,18 @@ Type the following command into the consule to run our first test again:
 
 `bash ./gradlew test`{{execute}}
 
-Now it's time for the advanced stuff, refactoring!
+### Success!
+
+```gradle
+BUILD SUCCESSFUL in 2s
+3 actionable tasks: 3 executed
+```
+
+Our test is now passing. This gives us a safety net and the confidence to now be able to go back and begin refactoring the code in our `Student` class.
+
+We have successfully completed the first two stages of TDD:
+
+1. Writting a unit test that is failing, or the <span style="color:red">red</span> stage
+2. Writting just enough code to get our unit test passing, or the <span style="color:green">green</span> stage
+
+We can now move onto the final stage of TDD, <span style="color:blue">refactoring</span>.

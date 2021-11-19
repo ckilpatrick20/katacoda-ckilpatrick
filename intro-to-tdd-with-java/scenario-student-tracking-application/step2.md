@@ -2,8 +2,6 @@
 ---
 Congratulations! We've written our first test.
 
-StudentTest.java
-
 Let's complete the first stage of TDD by running our test. We are expecting this test to fail, or be <span style="color:red">red</span>.
 
 ### Running our first test <span style="color:red">(RED STAGE)</span>
@@ -14,7 +12,7 @@ Type the following command into the consule to run our first test:
 
 ### Failure is an option
 ```gradle
-BUILD FAILED in 1s
+BUILD FAILED in 12s
 2 actionable tasks: 2 executed
 ```
 
