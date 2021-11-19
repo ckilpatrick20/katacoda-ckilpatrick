@@ -1,30 +1,30 @@
-## Let's write our first bit of code
 
-Now that we've written our test, we know our goal. We need to write the code required to make it go green.
+---
+## Student.java
 
-Start by opening the file `src/main/java/Student.java`{{open}}.
+Now that we've written our failing test, we know what we need to do next. We need to write just enough code to make the test go <span style="color:green">green</span>.
 
-Ah our Student class doesn't have any code in it, this is why it was failing in the previous step. Never fear, we'll write just enough code to get it green.
+Start by opening the `src/main/java/Student.java`{{open}} file.
 
-## Let's write our first bit of code
+### The Bare Minimum
 
-Our goal is to write the minimum code to pass the test, that's the "green" step. We'll refactor the code in future steps so our main aim here is to get something working.
+Our goal is to write the minimum amount of code to get the test to go <span style="color:green">green</span>. We will refactor the code in future steps, so our main aim here is to just get something working.
 
-Copy the following into the editor by hitting 'copy to editor':
+Copy the method below into the `Student.java` file:
 
 <pre class="file" data-filename="src/main/java/Student.java" data-target="replace">
 public class Student {
-  public String displayStudentName(String firstName, String lastName) {
+  public String displayStudentFullName(String firstName, String lastName) {
     return firstName + lastName;
   }
 }
 </pre>
 
-## Run your first test - again (Green)
+### Running our first test...again <span style="color:green">(GREEN STAGE)</span>
 
-Let's now run test again, but this time we're expecting that this will be "red" or "pass" as we've written the code that will meet the requirements of the test.
+Now that we have created our `displayStudentFullName` method and written just enough code to get the JUnit test to pass, it is time to run our test again. This time around, we should see our test go from <span style="color:red">red</span> to <span style="color:green">green</span>.
 
-Click execute to run your test suite:
+Type the following command into the consule to run our first test again:
 
 `bash ./gradlew test`{{execute}}
 

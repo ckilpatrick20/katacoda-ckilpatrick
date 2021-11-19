@@ -27,15 +27,15 @@ Let's start by opening up our `src/test/java/StudentTest.java`{{open}} file to b
 As we can see, there's not not much here yet except for a few import statements and an empty `StudentTest` class. Before we begin, we should look at our first requirement so we know what test we need to write first.
 
 **Requirement:**
-- Create a function that will concatenate a student's first and last name and return the new string
+- Create a method that will concatenate a student's first and last name and return the new string
 
 ### Writing our first test
 
-For our first test, we're going to create a new test method called `givenStudentName_ThenReturnDisplayName`. This test method will assert that `studentFullName` is equal to the concatination of the student's first and last name when we call our `student.displayStudentFullName` function 
+For our first test, we're going to create a new test method called `givenStudentName_ThenReturnDisplayName`. This test method will assert that `studentFullName` is equal to the concatination of the student's first and last name when we call our `student.displayStudentFullName` method 
 
 - **NOTE** There is no code in our `Student.java` file so we expect this test will fail
 
-Copy the test function below to the `StudentTest.java` file:
+Copy the test method below to the `StudentTest.java` file:
 
 <pre class="file" data-filename="src/test/java/StudentTest.java" data-target="replace">
 import org.junit.jupiter.api.Test;
