@@ -35,7 +35,7 @@ BUILD SUCCESSFUL in 2s
 3 actionable tasks: 3 executed
 ```
 
-Our test is now passing. This gives us a safety net and the confidence to now be able to go back and begin refactoring the code in our `Student` class.
+Our test is now passing. This gives us a safety net and the confidence to now be able to go back and begin refactoring the code in our `Student` and `StudentTest` classes.
 
 We have successfully completed the first two stages of TDD:
 

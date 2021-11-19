@@ -2,7 +2,7 @@
 ---
 ## Time to refactor
 
-Welcome to the last stage of the TDD cycle, <span style="color:blue">refactoring</span>. During this stage, we revisit the unit tests and code we have previously written to refactor:
+Welcome to the last stage of the TDD cycle, <span style="color:blue">refactoring</span>. During this stage, we revisit the unit test and code we have previously written to refactor:
 - Update our unit tests to adhear to the [arrange-act-assert](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/) pattern
 - Remove any hard-coded values
 - Update our `Student` class and `displayStudentFullName` method
@@ -64,3 +64,14 @@ public class Student {
 Now we will rerun our unit test from Step 1 to ensure we did not break our code.
 
 `bash ./gradlew test`{{execute}}
+
+```gradle
+BUILD SUCCESSFUL in 2s
+3 actionable tasks: 3 executed
+```
+
+Another successful build!
+
+The success of this last test demonstrates just how empowering TDD is. We now have the confidence to go back and refactor our code as needed because we have unit tests written against a known working state. If during the refactor stage we run our tests again and one of them is failing, we get immediate feedback and know we broke something.
+
+Now that we have completed one full cycle of TDD, we will start back at the beginning by writting another unit test we expect to go <span style="color:red">red</span>.
