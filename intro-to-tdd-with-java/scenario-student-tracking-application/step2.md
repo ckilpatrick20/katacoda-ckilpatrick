@@ -1,5 +1,5 @@
----
 
+---
 Congratulations! We've written our first test.
 
 StudentTest.java
