@@ -1,6 +1,6 @@
-# Test Driven Development (TDD)
+
 ---
-## Getting started
+## Getting started with TDD
 This scenario will guide you through the creation of a student tracking application. There is a preconfigured Java project which contains `Student` and `StudentTest` classes. We will be using JUnit5 to build out our test suite and Gradle to execute the tests.
 ### Prerequisites for this scenario
 Basic understanding of:

@@ -39,7 +39,7 @@ Our test is now passing. This gives us a safety net and the confidence to now be
 
 We have successfully completed the first two stages of TDD:
 
-1. Writting a unit test that is failing, or the <span style="color:red">red</span> stage
-2. Writting just enough code to get our unit test passing, or the <span style="color:green">green</span> stage
+1. Writting a unit test that is failing <span style="color:red">(red stage)</span>
+2. Writting just enough code to get our unit test passing <span style="color:green">(green stage)</span>
 
 We can now move onto the final stage of TDD, <span style="color:blue">refactoring</span>.
