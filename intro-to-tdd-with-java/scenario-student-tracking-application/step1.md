@@ -44,8 +44,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StudentTest {
   @Test
   public void givenStudentFirstLasName_ThenReturnFullName() {
-    Student student = new Student();
-    String studentFullName = student.displayStudentFullName("John", "Smith");
+    String studentFullName = new Student().displayStudentFullName("John", "Smith");
     assertEquals("JohnSmith", studentFullName);
   }
 }
