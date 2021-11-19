@@ -16,6 +16,6 @@ BUILD FAILED in 1s
 ```
 *This is an example error message. Do not worry if your error message looks a little different.*
 
-This is exactly what we were expecting. The `student.displayStudentFullName` method does not exist yet which means this test should and will fail.
+In fact, failure is our only option as this is exactly what we are expecting. The `student.displayStudentFullName` method does not exist yet which means this test should and will fail.
 
 Now we're ready for the next stage of TDD, making the test go <span style="color:green">green</span>!
